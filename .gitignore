@@ -1,9 +1,3 @@
-# Compiled class file
-*.class
-
-# Log file
-*.log
-
 # BlueJ files
 *.ctxt
 
@@ -22,3 +16,41 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# IntelliJ IDEA files
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse files
+.classpath
+.project
+.settings/
+
+# Maven specific files
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+release.properties
+pom.xml.branch
+
+# Gradle specific files
+.gradle/
+build/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Istanbul coverage reports
+coverage/
+
+# Istanbul temporary files
+.nyc_output/
